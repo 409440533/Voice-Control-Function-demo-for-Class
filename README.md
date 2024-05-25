@@ -1,4 +1,4 @@
-# Voice-Control-Function-for-Class-Demo
+# Voice-Control-Function-demo-for-Class
 A small project for Machine Learning in class of TKUEE
 
 - # *markdown samples*
