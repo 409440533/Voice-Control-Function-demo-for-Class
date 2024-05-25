@@ -4,11 +4,12 @@ A small project for Machine Learning in class of TKUEE
 - # *markdown samples*
 # target
 利用機器學習辨識語音輸入，透過不同的輸入進而達成操作個人電腦
-## tool version
+## tool version and dataset
 python:___
+dataset used: ___
 ### 三級標題
 
-- dataset used: ___
+- 
 - 項目 2
   - 子項目 A
   - 子項目 B
