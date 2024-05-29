@@ -2,6 +2,9 @@
 A small project for Machine Learning in class of TKUEE
 
 - # *markdown samples*
+文字轉語音
+
+https://github.com/nateshmbhat/pyttsx3
 # target
 利用機器學習辨識語音輸入，透過不同的輸入進而達成操作個人電腦  
 機器學習目標在於能夠辨識不同的語音輸入，轉換成電腦的操作  
