@@ -51,7 +51,7 @@ python:3.11.0
 
 dataset used: 
 
-[https://robertmassaioli.bitbucket.io/alphabet-upload.html ​](https://robertmassaioli.bitbucket.io/alphabet-upload.html?)
+[https://robertmassaioli.bitbucket.io/alphabet-upload.html ​](https://robertmassaioli.bitbucket.io/alphabet-upload.html?)處理過後:https://github.com/409440533/Voice-Control-Function-demo-for-Class/releases/tag/dataset
 
 [wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer (github.com) ](https://github.com/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer)
 
