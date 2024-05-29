@@ -26,8 +26,8 @@ def recognize_speech_from_file(file_path, model, label_encoder, max_len=40):
     predicted_label = np.argmax(prediction, axis=1)
     return label_encoder.inverse_transform(predicted_label)[0]
 
-# 加載保存的模型
-model_path = 'saved_model/my_modelatoz'
+# 加載上面保存的模型
+model_path = 'saved_model/my_modelatoz'        # 加載上面保存的模型----------------加載上面保存的模型---------------加載上面保存的模型----------------加載上面保存的模型--------------加載上面保存的模型------
 loaded_model = tf.keras.models.load_model(model_path)
 
 # 加載標籤編碼器
@@ -55,11 +55,11 @@ def search_in_browser(query):
 
 # 測試識別
 audio_files = [
-    r"C:\Users\s0978\OneDrive\桌面\sound\atoz\A\A_1.wav",  # 替換為你的音頻文件路徑
-    r"C:\Users\s0978\OneDrive\桌面\sound\atoz\R\R_3.wav",  # 替換為你的音頻文件路徑
-    r"C:/Users/s0978/OneDrive/桌面/sound/atoz/R/R_7.wav",  # 替換為你的音頻文件路徑
-    r"C:\Users\s0978\OneDrive\桌面\sound\atoz\A\A_8.wav",  # 替換為你的音頻文件路徑
-    r"C:\Users\s0978\OneDrive\桌面\sound\atoz\Y\Y_7.wav",  # 替換為你的音頻文件路徑
+    r"C:\Users\s0978\OneDrive\桌面\sound\atoz\A\A_1.wav",  # 放測試的音檔路徑----------放測試字母音檔路徑-----------放測試字母音檔路徑---------放測試字母音檔路徑------------------放測試字母音檔路徑
+    r"C:\Users\s0978\OneDrive\桌面\sound\atoz\R\R_3.wav",  # 放測試的音檔路徑----------放測試字母音檔路徑-----------放測試字母音檔路徑---------放測試字母音檔路徑------------------放測試字母音檔路徑
+    r"C:/Users/s0978/OneDrive/桌面/sound/atoz/R/R_7.wav",  # 放測試的音檔路徑----------放測試字母音檔路徑-----------放測試字母音檔路徑---------放測試字母音檔路徑------------------放測試字母音檔路徑
+    r"C:\Users\s0978\OneDrive\桌面\sound\atoz\A\A_8.wav",  # 放測試的音檔路徑----------放測試字母音檔路徑-----------放測試字母音檔路徑---------放測試字母音檔路徑------------------放測試字母音檔路徑
+    r"C:\Users\s0978\OneDrive\桌面\sound\atoz\Y\Y_7.wav",  # 放測試的音檔路徑----------放測試字母音檔路徑-----------放測試字母音檔路徑---------放測試字母音檔路徑------------------放測試字母音檔路徑
   
 
 ]
