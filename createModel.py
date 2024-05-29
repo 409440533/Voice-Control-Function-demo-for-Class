@@ -51,7 +51,7 @@ def extract_features(file_path, max_len):
     return mfcc
 
 # 2. 預處理數據
-data_dir = r"C:\Users\s0978\OneDrive\桌面\sound\atoz"  # 替換為你的數據文件夾路徑
+data_dir = r"C:\Users\s0978\OneDrive\桌面\sound\atoz"  # 放Dataset的路徑---------------------------放Dataset的路徑----------------------------放Dataset的路徑----------------------------------
 try:
     X, y = load_data(data_dir)
     print(f"Loaded {len(X)} samples with labels {set(y)}")
@@ -123,6 +123,6 @@ def recognize_speech_from_file(file_path, model, label_encoder, max_len=40):
     return label_encoder.inverse_transform(predicted_label)[0]
 
 # 測試識別
-test_file_path = r"C:\Users\s0978\OneDrive\桌面\sound\atoz\A\A_2.wav"  # 替換為你的測試音頻文件路徑
+test_file_path = r"C:\Users\s0978\OneDrive\桌面\sound\atoz\A\A_2.wav"  # 放測試字母音檔路徑---------------------放測試字母音檔路徑-------------------------放測試字母音檔路徑-------------------------
 predicted_label = recognize_speech_from_file(test_file_path, loaded_model, label_encoder)
 print(f"Predicted label: {predicted_label}")
