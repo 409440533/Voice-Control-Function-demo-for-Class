@@ -57,7 +57,12 @@ video:
 
 ---
 ## tool version and dataset
-python: 3.11.0
+python: 3.7.7  
+librosa: 0.10.2.post1  
+numpy: 1.21.6  
+scikit-learn: 1.0.2  
+tensorflow: 2.11.0  
+
 
 dataset used:  
 [https://robertmassaioli.bitbucket.io/alphabet-upload.html ​](https://robertmassaioli.bitbucket.io/alphabet-upload.html?)處理過後:https://github.com/409440533/Voice-Control-Function-demo-for-Class/releases/tag/dataset  
