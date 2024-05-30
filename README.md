@@ -30,7 +30,7 @@ A small project for Machine Learning in class of TKUEE
 搜尋相關dataset:  
 https://robertmassaioli.bitbucket.io/alphabet-upload.html  
 此dataset中的資料每筆都是一個由A到Z逐字唸出的連續音檔，再透過資料前處理後，分割成A~Z 26個字母分開的語音共10組，處理完後即為模型訓練所使用的資料集。  
-使用了別人的source code:
+使用了別人的source code:  
 https://github.com/KuanHaoHuang/tbrain-tomofun-audio-classification  
 <T-brain 2021，Tomofun 狗音辨識 AI 百萬挑戰賽：Top 3% Solution>的source code。  
 
