@@ -6,7 +6,7 @@ A small project for Machine Learning in class of TKUEE
 
 ### 動機
 平常用的裝置使用上多半都會具備有鍵盤或是滑鼠等設備輸入，平常也是很少使用語音輸入的功能，  
-因此在這次的期末project也想嘗試看看有關語音作為輸入的應用，便嘗試結合到上網搜尋的部分。
+因此在這次的期末專題也想嘗試看看有關語音作為輸入的應用，便嘗試結合到上網搜尋的部分。
  - 最初預期目標:  
 利用機器學習辨識語音輸入，透過不同的輸入進而達成操作個人電腦，
 機器學習目標在於能夠辨識不同的語音輸入，  
@@ -52,7 +52,7 @@ https://github.com/KuanHaoHuang/tbrain-tomofun-audio-classification
 而後有就其他資料量相對大一些的dataset(4000筆訓練資料)用相同的程式做模擬，但能改善的情況仍有限。  
 ### DEMO  
 PowerPoint:  
-https://tku365-my.sharepoint.com/:p:/g/personal/409440418_o365_tku_edu_tw/EYnUiugR2HBEvaS2NvbXD2gBHBg99uFb90Ache_nj6hU2w?e=jQr7na
+[投影片(內含展示影片)](https://tku365-my.sharepoint.com/:p:/g/personal/409440418_o365_tku_edu_tw/EYnUiugR2HBEvaS2NvbXD2gBHBg99uFb90Ache_nj6hU2w?e=jQr7na)
 
 video:  
 [ARRAY搜尋.mp4](https://github.com/409440533/Voice-Control-Function-demo-for-Class/blob/main/ARRAY%E6%90%9C%E5%B0%8B.mp4)
@@ -68,5 +68,6 @@ dataset used:
 ---
 未使用到參考資料:  
 語音生成(生成測試資料):  
-https://github.com/nateshmbhat/pyttsx3
+https://github.com/nateshmbhat/pyttsx3  
+原先設想為自己產生測試資料使用。
 
